@@ -1,0 +1,127 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: fit-content;
+    color: rgb(244, 244, 228);
+    background-image: linear-gradient(0deg,
+        rgba(13, 41, 90, 0.5),
+        rgba(13, 41, 90, 0.5)), url(https://www.dell.com/wp-uploads/2020/09/Como-Europa-esta-liderando-la-vuelta-a-la-oficina.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#description{
+    font-size: 1.4rem;
+    font-style: italic;
+    text-align: center
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+
+h1{
+    text-align: center;
+}
+
+form{
+    padding: auto;
+    width: 60vw;
+    margin: 0 auto;
+    border-radius: 0.65rem;
+    background: rgba(13, 41, 90, 0.8);
+    max-width: 700px;
+    min-width: 200px;
+    padding-bottom: 2rem;
+}
+
+fieldset{
+    border: none;
+    padding: 1rem 2rem;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+}
+
+
+fieldset.basic input{
+    width: 96%;
+    min-width: auto;
+    margin-top: 10px;
+    padding: 0.5rem;
+    border-radius: 7px;
+    border-color: rgba(13, 41, 90, 0.8);
+    font-size: 1rem;
+}
+
+#dropdown{
+    width: 96%;
+    min-width: auto;
+    margin-top: 10px;
+    padding: 0.5rem;
+    border-radius: 7px;
+    border-color: rgba(13, 41, 90, 0.8);
+    font-size: 1rem;
+}
+
+fieldset p{
+    display: block;
+    margin-top: 15px;
+}
+
+input[type="radio"]{
+    margin: 0;
+    width: 20px;
+    height: 18px;
+    vertical-align: middle;
+
+}
+
+input[type="checkbox"]{
+    margin: 0;
+    width: 20px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+textarea{
+    display: block;
+    margin: 15px 0;
+    width: 100%;
+    min-width: auto;
+    font-size: 1rem;
+}
+
+input[type="submit"]{
+    font-size: 1.4rem;
+    display: block;
+    text-align: center;
+    width: 92%; 
+    padding: 0.7rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(67, 8, 122);
+    box-shadow: 5px 5px 20px 10px rgba(255, 255, 255, 0.7);
+    transition: box-shadow 0.6s;
+}

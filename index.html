@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC Survey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help improve the platform</p>
+    <form action="survey-form">
+        <fieldset class="basic">
+            <label id="name-label" for="name">Name <input placeholder="Enter your name" type="text" name="name" id="name" ></label>
+            <label id="email-label" for="email">Email <input placeholder="Enter your email" type="email" name="email" id="email" required></label>
+            <label id="number-label" for="number">Age (Optional) <input placeholder="Age" type="number" name="number" id="number" min="8" max="110" ></label>
+        </fieldset>
+        <fieldset>
+            <label for="dropdown"> Which option best describes your current role?
+                <select name="dropdown" id="dropdown">
+                    <option value="">(select one)</option>
+                    <option value="1">Student</option>
+                    <option value="2">Full Time Job</option>
+                    <option value="3">Full Time Learner</option>
+                    <option value="4">Prefer not to say</option>
+                    <option value="5">Other</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+                <label for="atribute"><input type="radio" name="atribute" id="definitely"> Definitely</label>
+                <label for="atribute"><input type="radio" name="atribute" id="yes"> Yes</label>
+                <label for="atribute"><input type="radio" name="atribute" id="maybe"> Maybe</label>
+                <label for="atribute"><input type="radio" name="atribute" id="notsure"> Not Sure</label>
+                <label for="atribute"><input type="radio" name="atribute" id="no"> No</label>
+        </fieldset>
+        <fieldset>
+            <p>What would you like to see improved? (Check all that apply)</p>
+            <label for="frontend"><input type="checkbox" value="checkbox" name="frontend" id="frontend"> Front-end Projects</label>
+            <label for="backend"><input type="checkbox" value="checkbox" name="backend" id="backend"> Back-end Projects</label>
+            <label for="Datav"><input type="checkbox" value="checkbox" name="Datav" id="Datav"> Data Visualization</label>
+            <label for="challenges"><input type="checkbox" value="checkbox" name="challenges" id="challenges"> Challenges</label>
+            <label for="opens"><input type="checkbox" value="checkbox" name="opens" id="opens"> Open Sources Community</label>
+            <label for="videos"><input type="checkbox" value="checkbox" name="videos" id="videos"> Videos</label>
+            <label for="forum"><input type="checkbox" value="checkbox" name="forum" id="forum"> Forum</label>
+            <label for="comments">Any comments or suggestions?
+                <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Enter your comment here..." ></textarea>
+            </label>
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
